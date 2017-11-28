@@ -64,6 +64,8 @@ if len(sys.argv) > 1:
 if not vars().has_key('server'):
     [server, group, remote] = find_server()
 
+remote = "https://github.com/pulp-platform"
+
 print "Using remote git server %s, remote is %s" % (server, remote)
 
 

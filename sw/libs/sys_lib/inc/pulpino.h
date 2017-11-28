@@ -50,7 +50,8 @@
 #define INSTR_RAM_START_ADDR          ( 0x80       )
 
 /** ROM */
-#define ROM_BASE_ADDR                 ( 0x8000     )
+//#define ROM_BASE_ADDR                 ( 0x8000     )
+#define ROM_BASE_ADDR                 ( 0x80000000     )
 
 /** Data RAM */
 #define DATA_RAM_BASE_ADDR            ( 0x00100000 )

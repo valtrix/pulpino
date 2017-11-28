@@ -76,6 +76,12 @@ To clone those subrepositores and update them, use
 This script will read the `ips_lists.txt` file and update to the versions
 specified in there. You can choose specific commits, tags or branches.
 
+[SRC]
+After fetching all the IPs, run the following script to apply the patches which
+are required to run STING on PULPino test bench
+
+    ./patch-ips.sh
+
 
 ## Documentation
 

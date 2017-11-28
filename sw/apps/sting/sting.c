@@ -8,25 +8,10 @@
 // CONDITIONS OF ANY KIND, either express or implied. See the License for the
 // specific language governing permissions and limitations under the License.
 
-`ifndef CONFIG_SV
-`define CONFIG_SV
-`define RISCV
-// always define ASIC when we do a synthesis run
-`ifndef PULP_FPGA_EMUL
-`ifdef SYNTHESIS
-`define ASIC
-`endif
-`endif
 
-// data and instruction RAM address and word width
-`define ROM_ADDR_WIDTH      12
-//`define ROM_START_ADDR      32'h8000
-`define ROM_START_ADDR      32'h80000000
+#include <stdio.h>
 
-// Simulation only stuff
-`ifndef SYNTHESIS
-//`define DATA_STALL_RANDOM
-//`define INSTR_STALL_RANDOM
-`endif
-
-`endif
+int main()
+{
+    return 0;
+}

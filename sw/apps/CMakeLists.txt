@@ -192,6 +192,8 @@ endmacro()
 
 ################################################################################
 
+add_subdirectory(sting)
+
 add_subdirectory(helloworld)
 
 if(${ARDUINO_LIB})

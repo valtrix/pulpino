@@ -1,0 +1,15 @@
+diff --git a/apb_pulpino.sv b/apb_pulpino.sv
+index 94096e9..7182028 100644
+--- a/apb_pulpino.sv
++++ b/apb_pulpino.sv
+@@ -27,8 +27,8 @@
+ 
+ // info reg
+ `define VERSION          5'b00010 // Version number 1.0
+-`define DATA_RAM         8'b00000100 //size of data ram in multiples of 8 kBye
+-`define INSTR_RAM        8'b00000100 //size of instr ram in multiples of 8 kBye
++`define DATA_RAM         8'b10000000 //size of data ram in multiples of 8 kBye
++`define INSTR_RAM        8'b10000000 //size of instr ram in multiples of 8 kBye
+ `define ROM              5'b00000 // size of ROM in kByte - floor to nearest
+ `define ICACHE           1'b0 // has instruction cache
+ `define DCACHE           1'b0 // has data cache

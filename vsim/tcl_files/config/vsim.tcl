@@ -13,7 +13,7 @@ set cmd "vsim -quiet $TB \
   -gZERO_RV32E=$env(ZERO_RV32E) \
   -t ps \
   -voptargs=\"+acc -suppress 2103\" \
-  $VSIM_FLAGS"
+  $VSIM_FLAGS -dpicpppath /usr/bin/gcc"
 
 # set cmd "$cmd -sv_lib ./work/libri5cyv2sim"
 eval $cmd
