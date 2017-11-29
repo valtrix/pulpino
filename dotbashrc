@@ -1,0 +1,20 @@
+#!/bin/sh
+
+function set_env_vars()
+{
+    export PULPINO_ROOT=`pwd`
+
+#   # Append ModelSim installation into PATH
+#   export PATH=<>/intelFPGA/17.0/modelsim_ase/linux:$PATH
+
+#   # Append PULPino toolchain into PATH
+#   export PATH=<>/tools/pulp_riscv/bin:$PATH
+
+    export DOTBASHRC_SOURCED=1
+}
+
+if [ -z $DOTBASHRC_SOURCED ]
+then
+    echo "Setting Environment Variables"
+    set_env_vars
+fi
