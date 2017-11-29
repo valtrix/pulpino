@@ -38,7 +38,7 @@ In order to run simulations, create a temporary build directory inside sw folder
     cd sw; mkdir build
 
 Copy the cmake-configure.riscv.gcc.sh bash script to the build folder. It has been
-already updated to enabled compressed instructions
+already updated to enable compressed instructions
 
     cp cmake_configure.riscv.gcc.sh build
 
