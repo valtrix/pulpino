@@ -62,6 +62,9 @@ from outside.
 
     cp <STING.ELF> sw/build/apps/sting
 
+Note that a STING image is available in sw/apps/sting/images for evaluation needs. One can
+use it to run and evaluate STING on the PULPino platform
+
 To run simulations in the modelsim GUI use
 
     make sting.vsim
